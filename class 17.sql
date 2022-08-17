@@ -24,6 +24,7 @@ CREATE INDEX addressIndex ON address(postal_code);
 
 DROP INDEX addressIndex ON address;
 
+/* Copyright Gastoneta*/
 
 /*The query runs faster once an index is created. 
 MySQL uses the indexes to select exact physical corresponding rows of the table
